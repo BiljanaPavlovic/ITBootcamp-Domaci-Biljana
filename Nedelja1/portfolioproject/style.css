@@ -1,0 +1,116 @@
+html {font-family: helvetica;}
+
+ul.navigacija {list-style-type: none;}
+li.navi {
+    display: inline;
+   font-size: 20px;
+   }
+   
+ #nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: peachpuff;
+    width: 100%;
+  }
+  
+  li.navi {
+    float: left;
+  }
+  
+  li.navi a {
+    display: block;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.navi a:hover {
+    background-color:paleturquoise;
+  }
+  
+  h1 {text-align: center;
+    color: teal;
+    font-size: 80px;}
+    
+    
+    #profilna { display: inline-block; 
+    float: right;}
+    
+    #omeni {
+        background-image: url("https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-size: 100%;
+margin: 20px;
+padding: 15px;} 
+
+#dugme { display: inline-block; }
+
+button {border-radius: 30%;
+    padding: 15px 15px;
+font-size: 15px;
+background-color: peachpuff;
+color:teal;
+border: solid;
+position:relative;
+top:50%; 
+left:40%;
+}
+    
+    h3 {color: teal;
+    font-size: 50px;
+text-align: center;}
+
+p { font-size: 20px;}
+p a {color:teal;}
+
+#projekti { background-image: url(https://i.pinimg.com/originals/f2/50/62/f25062b96c7c06f256ad232a84916550.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 15px;
+color: peachpuff;}
+object {background-color:peachpuff;}
+
+#obrazovanje { background-image: url("https://ak7.picdn.net/shutterstock/videos/1022736847/thumb/12.jpg");
+    color:peachpuff;
+background-size: 100%;
+margin: 20px;
+padding: 15px;}
+
+
+#iskustvo { background-image: url("https://image.freepik.com/free-photo/creative-flat-lay-photo-modern-workplace-with-laptop-top-view-laptop-background-copy-space-white-background_11358-1313.jpg");
+background-position: center;
+    background-size: 100%;
+    margin: 20px;
+    padding: 15px;}
+
+#volontiranje { background-image: url("https://live.staticflickr.com/875/39496316340_66986bb280_b.jpg");
+    color:peachpuff;
+    background-position: center;
+        background-size: 100%;
+        margin: 20px;
+        padding: 15px;}
+
+#hobi { background-image: url("https://image.freepik.com/free-photo/sewing-accessories-spools-thread-with-scissors-wood-background-top-view_33882-370.jpg");
+    background-position: center;
+        background-size: 100%;
+        margin: 20px;
+        padding: 15px;}
+
+footer{
+    display:inline-block;
+    margin-left:30px;
+border-block: solid;
+background-color: peachpuff;
+width: 100%;
+padding: 15px;}
+
+h4 {color: teal;}
+
+.social-icon{
+    width: 24px;
+    height: 24px;}
+
+    ol {list-style-type: none;}
