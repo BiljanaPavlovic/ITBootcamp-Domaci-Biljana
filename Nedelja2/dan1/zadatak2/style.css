@@ -1,0 +1,88 @@
+h1 {color: black;
+  text-align: center;}
+
+body {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:
+   url("https://www.corsia.us/wp-content/uploads/2016/05/ford-evolution-798x1024.jpg");
+  background-size: 100%;
+}
+li { list-style-type: none;
+text-align: right;}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+}
+
+ 
+input[type=text],
+select {
+  width: 300px;
+  padding: 8px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 300px;
+  background-color: grey;
+  color: white;
+  padding: 8px 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+input[type=password],
+select {
+  width: 300px;
+  padding: 8px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: grey;
+  color: white;
+  
+}
+
+caption {
+  color: black;
+}
+#registracija {float: left;
+  padding: 15px;}
+
+footer {width: 100%; border: solid;
+display: inline-block;}
+
+.login {display: inline-block;
+float: right;}
+
+body, h1 {
+  color:indigo;
+}
