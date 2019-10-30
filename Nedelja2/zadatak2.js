@@ -1,7 +1,9 @@
 var zadatak2 = 'Welcome to DOM';
-var naslov = zadatak2;
 
-console.log(naslov);
+
+const noviNaslov = document.getElementById(`naslov`);
+noviNaslov.innerHTML=zadatak2;
+
 
 var noviParagraf=`Олдтајмер или историјско возило је свако возило на моторни погон старије од 30 година, које што приближније одговара оригиналном моделу.
 
