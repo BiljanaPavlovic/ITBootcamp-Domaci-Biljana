@@ -1,7 +1,7 @@
 
 let counter='';
 
-    for(let a = 5; a >= 1; a--){
+    for(let n = 5; n >= 1; n--){
         counter+='#';
     console.log(counter);
     }
