@@ -1,26 +1,19 @@
+let n=5;
+let x=' ';
+let y=' ';
 
-    {
-        var n=5;
-  
-    for (var i = 1; i <= n; i++) {
-      var x = '';
-      
-      for (var j = 1; j <= (n - i); j++) {
-        x += ' ';
-      }
-      
-      for (var k = 1; k <= i; k++) {
-        x += '#';
-      }
-      
-      console.log(x);
-    }
-    
-let counter='';
+for(let i=1; i<=n; i++){
+   x= ' ';
+   y=' ';
 
-for(let n = 5; n >= 1; n--){
-    counter+='#';
-console.log(counter);
+for(let j =1; j<=(n-i); j++){
+  x+=' ';
 }
-
-    }
+for(let k=1; k<=i; k++){
+  x+='#';
+}
+for( j=1; j<=i; j++){
+  y+='#';
+}
+console.log(`${x} ${y}`);
+}
