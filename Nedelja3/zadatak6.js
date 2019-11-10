@@ -11,7 +11,7 @@
 
 const btnOrderClassName='btn-order';
 
-let btnOrder=document.getElementsByClassName(btn-orderClassName);
+let btnOrder=document.getElementsByClassName(btnOrderClassName);
 console.log(btnOrder);
 let counter=document.getElementById('counter');
 
