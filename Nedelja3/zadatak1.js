@@ -3,17 +3,17 @@
 
 
 function maksimum(a,b,c) {
-    if(a>b&&a>c){
+    if(a>=b&&a>=c){
         console.log(a);
     }
-    if(b>a && b>c){
+    if(b>=a && b>=c){
         console.log(b);
     }
-    if(c>a && c>b){
+    if(c>=a && c>=b){
         console.log(c);
     }
     return maksimum;
 }
 
-maksimum(5,9,3);
+maksimum(5,5,3);
 maksimum(654165,5646,6546);

@@ -5,10 +5,10 @@ function maksimum(a,b,c) {
     if(a>b&&a>c){
         console.log(a);
     }
-    if(b>a && b>c){
+    if(b>=a && b>=c){
         console.log(b);
     }
-    if(c>a && c>b){
+    if(c>=a && c>=b){
         console.log(c);
     }
     return maksimum;
