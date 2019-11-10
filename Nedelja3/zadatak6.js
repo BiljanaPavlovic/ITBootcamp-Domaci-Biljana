@@ -14,15 +14,15 @@ const btnOrderClassName='btn-order';
 let btnOrder=document.getElementsByClassName(btnOrderClassName);
 console.log(btnOrder);
 let counter=document.getElementById('counter');
-
+counter=0;
 
 const orderCounterBadge=document.getElementById('counter');
-function order(element){
-console.log(element);
-counter++;
-counterBadge.innerHTML=counter;
-}
+function order(counter){
 
+counter++;
+orderCounterBadge.innerHTML=counter;
+}
+console.log(counter);
 const counterNumber=document.getElementById('counter');
 
 for(let button of btnOrder){
