@@ -9,9 +9,27 @@
 Напомена:  X је бројач, проверити да ли је бројач 0, и ако јесте 
 кликом на наручивање одмах избацује одговарајућу поруку за грешку*/
 
+const btnOrderClassName='btn-order';
+
+let btnOrder=document.getElementsByClassName(btn-orderClassName);
+console.log(btnOrder);
+let counter=document.getElementById('counter');
 
 
+const orderCounterBadge=document.getElementById('counter');
+function order(element){
+console.log(element);
+counter++;
+counterBadge.innerHTML=counter;
+}
 
+const counterNumber=document.getElementById('counter');
+
+for(let button of btnOrder){
+    button.addEventListener('click',function(){
+        order(counter)
+    });
+}
 function izaberi(element){
     console.log(element);
     brojac++;
