@@ -30,22 +30,22 @@ for(let button of btnOrder){
         order(counter)
     });
 }
-function izaberi(element){
-    console.log(element);
-    brojac++;
-    CountQueuingStrategy.innerHTML=brojac;
+function izaberi(counter){
+    console.log(counter);
+    counter++;
+    CountQueuingStrategy.innerHTML=counter;
 }
 const orderNowClassName='btn-order-now';
 let orderNow=document.getElementsByClassName(orderNowClassName);
 console.log(orderNow);
 for(let dugme of orderNow){
     dugme.addEventListener('click', function(){
-        naruciOdmah(brojac);
+        naruciOdmah(counter);
     });
 }
 
 function naruciOdmah(reset){
     console.log(reset);
-    if (brojac<=0)
+    if (counter<=0)
     window.alert('GRESKA!');
 }
