@@ -14,11 +14,12 @@ const btnOrderClassName='btn-order';
 let btnOrder=document.getElementsByClassName(btnOrderClassName);
 console.log(btnOrder);
 let counter=document.getElementById('counter');
+counter=0;
 
 
 
 const orderCounterBadge=document.getElementById('counter');
-function order(counter){
+function order(){
 
 counter++;
 orderCounterBadge.innerHTML=counter;
@@ -36,21 +37,44 @@ function izaberi(counter){
     counter++;
     CountQueuingStrategy.innerHTML=counter;
 }
+
+var reset = function () {
+    counter = 0;
+    updateValue();
+};
+
+
 const orderNowClassName='btn-order-now';
 let orderNow=document.getElementsByClassName(orderNowClassName);
 console.log(orderNow);
 for(let dugme of orderNow){
     dugme.addEventListener('click', function(){
-        naruciOdmah(counter);
+        naruciOdmah(reset);
+    
     });
 }
+var dateTimeNow= new Date();
+console.log(dateTimeNow);
+var hours=dateTimeNow.getHours();
+var minuts=dateTimeNow.getMinutes();
+var seconds=dateTimeNow.getSeconds();
+var timeStampString=`${hours}:${minuts}:${seconds}`;
+console.log(timeStampString);
+
+/*var reset = function () {
+    counter = 0;
+    updateValue();
+};*/
+
 
 function naruciOdmah(reset){
+
     console.log(reset);
     if (counter<=0){
     
     window.alert('GRESKA!');
 }else{
-    window.alert(`Narucili ste ${counter} pica.`)
+    window.alert(`Narucili ste ${counter} pica u ${timeStampString}.`);
+
 }
 }
