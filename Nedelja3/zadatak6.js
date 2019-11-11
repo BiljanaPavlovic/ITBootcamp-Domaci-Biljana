@@ -18,6 +18,7 @@ counter=0;
 
 
 
+
 const orderCounterBadge=document.getElementById('counter');
 function order(){
 
@@ -48,12 +49,15 @@ const orderNowClassName='btn-order-now';
 let orderNow=document.getElementsByClassName(orderNowClassName);
 console.log(orderNow);
 
+
+
+
 //var dugme=document.getElementsByClassName(btn-order-now);
 
 for( let dugme of orderNow){
     dugme.addEventListener('click', function(){
-        
-        naruciOdmah(counter);
+      
+       return naruciOdmah(counter);
     });
 }
 var dateTimeNow= new Date();
@@ -80,8 +84,11 @@ function naruciOdmah(reset){
   
 }else{
     window.alert(`Narucili ste ${counter} pice u ${timeStampString}.`);
+    counter = 0;
+    orderCounterBadge.innerHTML=0;
+}
+}
 
-}
-}
+
 
 
