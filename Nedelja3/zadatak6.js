@@ -47,10 +47,13 @@ var reset = function () {
 const orderNowClassName='btn-order-now';
 let orderNow=document.getElementsByClassName(orderNowClassName);
 console.log(orderNow);
-for(let dugme of orderNow){
+
+//var dugme=document.getElementsByClassName(btn-order-now);
+
+for( let dugme of orderNow){
     dugme.addEventListener('click', function(){
-        naruciOdmah(reset);
-    
+        
+        naruciOdmah(counter);
     });
 }
 var dateTimeNow= new Date();
@@ -73,8 +76,12 @@ function naruciOdmah(reset){
     if (counter<=0){
     
     window.alert('GRESKA!');
+
+  
 }else{
-    window.alert(`Narucili ste ${counter} pica u ${timeStampString}.`);
+    window.alert(`Narucili ste ${counter} pice u ${timeStampString}.`);
 
 }
 }
+
+
