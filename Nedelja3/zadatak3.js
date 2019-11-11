@@ -26,5 +26,13 @@ function cenaPoCm(r,c) {
 
 console.log(cenaPoCm(5,250));
 
+let pizza1 = cenaPoCm(10,80);
+let pizza2= cenaPoCm(12,300);
+let pizza3=cenaPoCm(8,200);
 
+function najjeftinija(c,v,n){
+   let min= Math.min(c,v,n);
+   return min;
+}
 
+najjeftinija(pizza1,pizza2,pizza3);

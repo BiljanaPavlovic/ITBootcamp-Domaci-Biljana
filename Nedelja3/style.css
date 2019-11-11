@@ -6,6 +6,18 @@ div{
 img{
     width: 100%;
 }
+button{
+background-color: brown;
+border-radius: 30%;
+border: 4 px solid black;
+font-size: 35px;
+font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-size: 100px;
+    display: inline;
+    text-align: center;
+}
 div.left , div.right {
     float: left;
     width:49%;

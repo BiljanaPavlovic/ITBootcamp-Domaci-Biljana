@@ -14,7 +14,8 @@ const btnOrderClassName='btn-order';
 let btnOrder=document.getElementsByClassName(btnOrderClassName);
 console.log(btnOrder);
 let counter=document.getElementById('counter');
-counter=0;
+
+
 
 const orderCounterBadge=document.getElementById('counter');
 function order(counter){
@@ -46,6 +47,10 @@ for(let dugme of orderNow){
 
 function naruciOdmah(reset){
     console.log(reset);
-    if (counter<=0)
+    if (counter<=0){
+    
     window.alert('GRESKA!');
+}else{
+    window.alert(`Narucili ste ${counter} pica.`)
+}
 }
