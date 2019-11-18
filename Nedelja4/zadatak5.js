@@ -14,43 +14,53 @@
     }
     ```*/
 
-    let recept={
-        name:'makaroneSaSirom',
-        tezina:'srednje',
-        sastojci:[
-            {
-               imeSastojka: 'makarone',
-               kolicina: 1,
-               cena: 60
-           },
-       
-            {
-           imeSastojka: 'sir',
-           kolicina: 1,
-           cena: 200
-           },
 
-       
-           {
-               imeSastojka: 'jaja',
-               kolicina: 3,
-               cena: 10
+let s1 = {
+    imeSastojka: 'makarone',
+    kolicina: 1,
+    cena: 60
+};
+let s2 = {
+    imeSastojka: 'sir',
+    kolicina: 1,
+    cena: 200
+};
+let s3 =
+{
+    imeSastojka: 'jaja',
+    kolicina: 3,
+    cena: 10
 
-           },
-           {
-               imeSastojka: 'ulje',
-               kolicina: 1,
-               cena: 5},
-       
-               {
-                   imeSastojka: 'so',
-                   kolicina:1,
-                   cena:5
-               }
-        ]
-        
+}
+let s4 =
+{
+    imeSastojka: 'ulje',
+    kolicina: 1,
+    cena: 5
+};
+let s5 =
+{
+    imeSastojka: 'so',
+    kolicina: 1,
+    cena: 5
+}
+let recept = {
+    name: 'makaroneSaSirom',
+    tezina: 'srednje',
+    sastojci: [s1, s2, s3, s4, s5],
+
+    ukupnaCena: function() {
+        let ukupno = 0;
+        this.sastojci.forEach(s => {
+            ukupno += s.kolicina * s.cena;
+        });
+        return ukupno;
     }
+}
 
+console.log(recept.ukupnaCena());
+
+/*
 function cenaMakarone(recept){
     return recept.sastojci[0].cena*recept.sastojci[0].kolicina;
 }
@@ -93,4 +103,4 @@ function cenaJela(){
 
 console.log(cenaJela());
 
-
+*/
