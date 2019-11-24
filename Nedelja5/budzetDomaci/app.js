@@ -265,8 +265,8 @@ var nodeListForEach = (list, callback) => {
 			now = new Date();
 			month = now.getMonth();
 			year = now.getFullYear();
-			monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
-										'September', 'October', 'November', 'December'];
+			monthNames = ['Januar', 'Februar', 'Mart', 'April', 'Maj', 'Jun', 'Jul', 'Avgust',
+										'Septembar', 'Oktobar', 'Novembar', 'Decembar'];
 
 			document.querySelector(DOMstrings.date).textContent = monthNames[month] + ' ' + year ;
 		},
