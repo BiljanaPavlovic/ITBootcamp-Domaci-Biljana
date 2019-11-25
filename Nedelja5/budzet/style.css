@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://americasaves.org/images/article/Dollar%20Bills.jpg);
+    text-align: center;
+    font-family: Helvetica;
+}
+h1{
+    color: #4CAF50;
+    
+}
+#prihodiLista{
+    color: black;
+    font-size: 25px;
+    width: 400px;
+    min-height: 350px;
+    margin: 150px ;
+    border-radius: 20px;
+    border: solid 4px #2c3033;
+    box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
+                      0 0 0px 3px #2c3033;
+    display: flex;
+    float: left;
+}
+#rashodiLista{
+    color: black;
+    font-size: 25px;
+    width: 400px;
+    min-height: 350px;
+    margin: 150px ;
+    border-radius: 20px;
+    border: solid 4px #2c3033;
+    box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
+                      0 0 0px 3px #2c3033;
+    display: flex;
+    
+}
+li{
+    background-color: grey;
+    list-style: none;
+}
+#opis{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#iznos{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#select{
+    width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#dugme{
+    width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#saldo{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

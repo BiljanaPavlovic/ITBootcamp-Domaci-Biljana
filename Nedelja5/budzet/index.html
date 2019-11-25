@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Budzet aplikacija</title>
+</head>
+<body>
+    <h1><strong>Kućni budžet</strong></h1>
+
+    <div id="unos">
+        <select id="select">
+            <option id="prihod">prihod</option>
+            <option id="rashod">rashod</option>
+        </select>
+        <input id="opis" type="text" placeholder="Uneti opis transakcije">
+        <input id="iznos" type="number" placeholder="Uneti iznos">
+        <button id="dugme" type="submit">Izracunaj</button>
+    </div><br><br>
+    <div id="iznosSaldo">
+            <input id="saldo" type="number">
+        </div>
+    <div id="prihodiLista">
+        <ul id="listaP">
+            <li>Prihodi:</li>
+        </ul>
+    </div>
+    <div id="rashodiLista">
+        <ul id="listaR">
+            <li>Rashodi:</li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
