@@ -1,0 +1,46 @@
+
+Питања:
+Зашто користимо JSON?
+
+JSON format se često koristi za serijalizaciju i prenos strukturiranih podataka
+preko mrežne veze. Pre svegase koristi za razmenu podataka između servera i web 
+aplikacije, kao zamena za XML.
+
+Зашто су модули корисни? +Пример
+
+Moduli nam omogućavaju da nam kod bude pregledniji i lakši za snalaženje, 
+ako je potrebno da izmenimo neku funkciju dovoljno je to uraditi na jednom mestu
+koje ćemo lakše naći nego kada pišemo sve u istom fajlu. Pogodno je za kompleksnije
+sajtove sa mnogo funkcionalnosti. Na primer u knjižari gde imamo program koji 
+služi kao kasa, takođe implementia nivelacije cena, ima bazu podataka članova 
+kluba čitalaca, omogućava i internet prodaju. U jednom trenutku su menadzeri odlučili
+da čitaoce ne možemo da tražimo u bazi podataka po imenu i prezimenu, već da moraju 
+da nose karticu koja se učitava pomoću bar koda, programeri su morali da ukinu opciju
+u programu da se član traži po imenu... to je najlakše sprovesti ako je program napisan
+po modulima, može se izmeniti podešavanje članova a da seve ostalo ostane isto...
+
+Шта је ECMAScript?
+
+ECMAScript je standardizacija skriptnog jezika napravljena da bi se standardizovao
+javaScript i da bi se sačuvalo više nezavisnih implementacija.
+
+Опишите како функционишу HTTP захтеви и шта је то REST API.
+
+HTTP zahtevi su GET, POST, PUT i DELETE, ove zahteve API prenosi od klijenta do servera
+i vraća odgovor. Temelji se na tehnologiji reprezentativnog prenosa stanja (REST),
+ arhitektonskom stilu i pristupu komunikacijama koji se često koriste u
+  razvoju veb usluga.
+
+
+Која је разлика између == и === ?
+
+== poredi vrednosti podataka; === poredi vrednosti i tip podataka;
+npr 
+25+'25'==50 // true
+25 + '25' === 50// false
+
+Шта враћа console.log(typeof typeof true);
+Објаснити зашто
+
+Vraća string, kada bi pisalo typeof true vratilo bi boolean, ali u ovom slucaju
+ceo izraz typeof true vidi kao string
