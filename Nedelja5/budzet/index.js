@@ -6,23 +6,39 @@ var prihodContainer = document.querySelector('#prihodiLista');
 var rashodiContainer = document.querySelector('#rashodiLista');
 var ulPrihodi = document.querySelector('#listaP')
 var ulRashodi = document.querySelector('#listaR')
+var saldo = document.querySelector('#saldo')
+var total = 0;
+var totalR=0;
 
 dugme.addEventListener('click', function() {
   
-var liContent = document.createTextNode(opis.value);
-//var liNumber = document.createTextNode(iznos.value);
-if(select.value=='prihod'){
-    let newLi = document.createElement('li');
 
-    newLi.appendChild(liContent);
-    //liNumber.appendChild(liContent);
-    prihodContainer.appendChild(newLi);
-   // prihodContainer.appendChild(liNumber);
+
+var liContent = document.createElement('li') // <li></li>
+liContent.textContent = opis.value + ' ' + iznos.value// <li>fgldgd</li>
+let num = Number(iznos.value);
+console.log(num);
+console.log(typeof num)
+if(select.value=='PRIHOD'){
+    prihodContainer.appendChild(liContent);
+
+    total += num;
 }else{
     let newLi = document.createElement('li');
     newLi.appendChild(liContent);
-   // liNumber.appendChild(liContent);
+   
     rashodiContainer.appendChild(newLi);
-   // rashodiContainer.appendChild(liNumber);
+   
+   totalR+=num
 };
+//let razlika = total - totalR;
+//saldo.innerHTML(razlika);
+
+
 });
+
+
+
+
+
+

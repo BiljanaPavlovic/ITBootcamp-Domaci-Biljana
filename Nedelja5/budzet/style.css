@@ -5,40 +5,42 @@ body{
 }
 h1{
     color: #4CAF50;
+    background: whitesmoke;
+    border: solid #4CAF50;
     
 }
 #prihodiLista{
-    color: black;
+    
     font-size: 25px;
     width: 400px;
     min-height: 350px;
     margin: 150px ;
     border-radius: 20px;
-    border: solid 4px #2c3033;
-    box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
-                      0 0 0px 3px #2c3033;
+    border: solid 10px #4CAF50;
+    
     display: flex;
     float: left;
+    color: #4CAF50;
 }
 #rashodiLista{
-    color: black;
+   
     font-size: 25px;
     width: 400px;
     min-height: 350px;
     margin: 150px ;
     border-radius: 20px;
-    border: solid 4px #2c3033;
-    box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
-                      0 0 0px 3px #2c3033;
+    border: solid 10px  #4CAF50;
     display: flex;
+    color: #4CAF50;
     
 }
 li{
-    background-color: grey;
+    background-color: whitesmoke;
     list-style: none;
+    display: inline;
 }
 #opis{
-    width: 50%;
+    width: 45%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -47,7 +49,7 @@ li{
     box-sizing: border-box;
 }
 #iznos{
-    width: 10%;
+    width: 15%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -61,10 +63,11 @@ li{
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
-  border: none;
+  border: solid #4CAF50;
   border-radius: 4px;
   cursor: pointer;
 }
+
 #dugme{
     width: 10%;
   background-color: #4CAF50;
@@ -83,4 +86,12 @@ li{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    border: solid #4CAF50;
+}
+
+#opis{
+    border: solid #4CAF50;
+}
+#iznos{
+    border: solid #4CAF50;
 }
