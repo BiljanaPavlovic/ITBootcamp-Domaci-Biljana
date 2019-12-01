@@ -29,7 +29,7 @@ javaScript i da bi se sačuvalo više nezavisnih implementacija.
 HTTP zahtevi su GET, POST, PUT i DELETE, ove zahteve API prenosi od klijenta do servera
 i vraća odgovor. Temelji se na tehnologiji reprezentativnog prenosa stanja (REST),
  arhitektonskom stilu i pristupu komunikacijama koji se često koriste u
-  razvoju veb usluga.
+  razvoju veb usluga. REST je arhitektonski stil ili obrazac dizajna za API.
 
 
 Која је разлика између == и === ?

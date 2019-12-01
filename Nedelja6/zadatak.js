@@ -16,7 +16,8 @@ dugme.addEventListener('click',()=>{
     });
     /*
     Napravili bismo feach funkciju u koju bismo stavili url backenda i 
-    metod po kojem proveravamo*/ 
+    upotrebili bismo metod POST po kojem proveravamo korisnika, a za log out 
+    se koristi metod DELETE*/ 
   
 
     
