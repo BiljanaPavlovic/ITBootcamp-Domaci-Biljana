@@ -5,19 +5,19 @@ let dugme = document.querySelector('#btn');
 dugme.addEventListener('click',()=>{
 
         if(username.value.length<3||username.value.length>15){
-        alert('Ne moze')
+        alert('Neodgovarajuca duzina')
             
-        }else if(username.value.length[0]== Number(username.value)){
-            alert('Ne moze broj')
+        }else if(isNaN(username.value[0])){
+            console.log(username.value)
         }else{
-            console.log(username.value.length)
+            alert('Ne moze broj')
         }
 
-        if(username.value==JSON.username||password.value==JSON.password){
-            alert('Uspesna prijava!')
-        }else{
-            alert('Neuspesna prijava!')
-        }
+      //  if(username.value==JSON.username||password.value==JSON.password){
+        //    alert('Uspesna prijava!')
+     //   }else{
+      //      alert('Neuspesna prijava!')
+       // }
         
     });
     /*
