@@ -12,6 +12,12 @@ dugme.addEventListener('click',()=>{
         }else{
             console.log(username.value.length)
         }
+
+        if(username.value==JSON.username||password.value==JSON.password){
+            alert('Uspesna prijava!')
+        }else{
+            alert('Neuspesna prijava!')
+        }
         
     });
     /*
