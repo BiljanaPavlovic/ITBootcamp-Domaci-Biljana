@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background: peachpuff;
+
+}
+#poruke{
+    width: 600px;
+  min-height: 350px;
+  margin: 50px auto;
+  border-radius: 20px;
+  border: solid 4px #2c3033;
+  background: teal;
+  box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
+                        0 0 0px 3px #2c3033;
+                        text-align: left;}
+
+button{
+    border-radius: 40px;
+    background: teal;
+    color: peachpuff;
+    padding: 10px 24px;
+}
+input {
+    width: 30%;
+    padding: 10px 24px;
+    border-radius: 40px;
+  }
+ h1{
+     color: teal;
+ }
+ 
+ li{
+     color: peachpuff;
+ }
+ ul{
+     color: peachpuff;
+ }
