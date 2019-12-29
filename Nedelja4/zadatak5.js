@@ -60,47 +60,4 @@ let recept = {
 
 console.log(recept.ukupnaCena());
 
-/*
-function cenaMakarone(recept){
-    return recept.sastojci[0].cena*recept.sastojci[0].kolicina;
-}
 
-let cenaMakaroneSum= cenaMakarone(recept);
-console.log(cenaMakaroneSum);
-
-function cenaSir(recept){
-    return recept.sastojci[1].cena*recept.sastojci[1].kolicina;
-}
-
-let cenaSirSum= cenaSir(recept);
-console.log(cenaSirSum);
-
-function cenaJaja(recept){
-    return recept.sastojci[2].cena*recept.sastojci[2].kolicina;
-}
-
-let cenaJajaSum= cenaJaja(recept);
-console.log(cenaJajaSum);
-
-function cenaUlje(recept){
-    return recept.sastojci[3].cena*recept.sastojci[3].kolicina;
-}
-
-let cenaUljeSum= cenaUlje(recept);
-console.log(cenaUljeSum);
-
-function cenaSo(recept){
-    return recept.sastojci[4].cena*recept.sastojci[4].kolicina;
-}
-
-let cenaSoSum= cenaSo(recept);
-console.log(cenaSoSum);
-
-function cenaJela(){
-    let ukupnaCena= cenaMakaroneSum+cenaSirSum+cenaJajaSum+cenaUljeSum+cenaSoSum;
-    return ukupnaCena;
-}
-
-console.log(cenaJela());
-
-*/
